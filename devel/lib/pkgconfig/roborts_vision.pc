@@ -1,0 +1,8 @@
+prefix=/home/dji/hyy_ws/devel
+
+Name: roborts_vision
+Description: Description of roborts_vision
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/dji/hyy_ws/devel/lib 
+Requires: 

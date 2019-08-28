@@ -1,0 +1,2 @@
+8.6 No.4/roborts_bringup:8.6 No.4/roborts_msgs:8.6 No.4/roborts_serial:8.6 No.4/roborts_vision
+-DCATKIN_DEVEL_PREFIX=/home/dji/hyy_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dji/hyy_ws/install -G Unix Makefiles

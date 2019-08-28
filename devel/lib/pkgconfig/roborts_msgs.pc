@@ -1,0 +1,8 @@
+prefix=/home/dji/hyy_ws/devel
+
+Name: roborts_msgs
+Description: Description of roborts_msgs
+Version: 1.0.0
+Cflags: -I/home/dji/hyy_ws/devel/include
+Libs: -L/home/dji/hyy_ws/devel/lib 
+Requires: 

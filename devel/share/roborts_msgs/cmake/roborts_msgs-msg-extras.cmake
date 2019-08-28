@@ -1,0 +1,2 @@
+set(roborts_msgs_MESSAGE_FILES "/home/dji/hyy_ws/src/8.6 No.4/roborts_msgs/chassis/chassis_ctrl.msg;/home/dji/hyy_ws/src/8.6 No.4/roborts_msgs/chassis/chassis_info.msg;/home/dji/hyy_ws/src/8.6 No.4/roborts_msgs/feedback/feedback_ctrl.msg;/home/dji/hyy_ws/src/8.6 No.4/roborts_msgs/feedback/feedback_info.msg;/home/dji/hyy_ws/src/8.6 No.4/roborts_msgs/gimbal/gimbal_ctrl.msg;/home/dji/hyy_ws/src/8.6 No.4/roborts_msgs/gimbal/gimbal_info.msg;/home/dji/hyy_ws/src/8.6 No.4/roborts_msgs/referee_system/referee_system.msg")
+set(roborts_msgs_SERVICE_FILES "")

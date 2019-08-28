@@ -1,0 +1,8 @@
+prefix=/home/dji/hyy_ws/install
+
+Name: roborts_vision
+Description: Description of roborts_vision
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/dji/hyy_ws/install/lib 
+Requires: 

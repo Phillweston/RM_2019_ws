@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "roborts_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "chassis_ctrl" :depends-on ("_package_chassis_ctrl"))
+    (:file "_package_chassis_ctrl" :depends-on ("_package"))
+    (:file "chassis_info" :depends-on ("_package_chassis_info"))
+    (:file "_package_chassis_info" :depends-on ("_package"))
+    (:file "feedback_ctrl" :depends-on ("_package_feedback_ctrl"))
+    (:file "_package_feedback_ctrl" :depends-on ("_package"))
+    (:file "feedback_info" :depends-on ("_package_feedback_info"))
+    (:file "_package_feedback_info" :depends-on ("_package"))
+    (:file "gimbal_ctrl" :depends-on ("_package_gimbal_ctrl"))
+    (:file "_package_gimbal_ctrl" :depends-on ("_package"))
+    (:file "gimbal_info" :depends-on ("_package_gimbal_info"))
+    (:file "_package_gimbal_info" :depends-on ("_package"))
+    (:file "referee_system" :depends-on ("_package_referee_system"))
+    (:file "_package_referee_system" :depends-on ("_package"))
+  ))
